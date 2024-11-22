@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 15px;
+}
+
+.code{
+    font-size: 15px;   
+    color: blue;
+}
+
+#exemplo{
+    border: 1px Dashed black;
+    width: 40%;
+    height: 100px;
+    margin-left: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px ;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.explicacao{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 3px;
+}

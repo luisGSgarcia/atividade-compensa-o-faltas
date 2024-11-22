@@ -1,0 +1,8 @@
+footer{
+    height: 30px;
+    background: linear-gradient( 90deg, rgb(2, 214, 204), rgb(3, 80, 247));
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

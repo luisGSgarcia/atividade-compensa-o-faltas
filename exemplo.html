@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-exemplo.css">
+    <title>Exemplo de input type file</title>
+</head>
+<body>
+
+    <a href="index.html">Voltar à Página principal</a>
+
+    <div class="formulario">
+
+        <form action="#">
+
+            <h1>Cadastro de Produto</h1>
+
+            <label for="">Nome do Produto:</label>
+            <input type="text" placeholder="Nome do Produto">
+
+            <label for="">Descrição do Produto:</label>
+            <input type="text" placeholder="Descrição do Produto">
+
+            <label for="">Preço:</label>
+            <input type="text" placeholder="Preço">
+
+            Imagem do Produto:
+            <label for="file" id="label-file">Selecionar Imagem <img src="icon-arquivo.svg" alt="icon-arquivo" id="icon"></label>
+            <input type="file" name="file" id="file" required multiple accept=".jpg,.png, .jpeg">
+
+            <button type="submit" id="submit">Cadastrar</button>
+
+        </form>
+
+    </div>
+    
+    
+</body>
+</html>

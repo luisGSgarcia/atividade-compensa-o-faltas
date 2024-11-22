@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    margin-bottom: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+section ul, p{ 
+    margin-left: 20px;
+}
+
+code{
+    font-size: 15px;
+    color: blue;
+}
+
+.atributos{
+    border: 1px Dashed black;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 8px;
+}

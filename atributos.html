@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-header-nav.css">
+    <link rel="stylesheet" href="style-atributos.css">
+    <link rel="stylesheet" href="footer.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <h1>INPUT TYPE FILE</h1>
+    </header>
+
+    <nav>
+
+        <ul>
+          <li><a href="index.html">Estrutura básica</a></li>
+          <li><a href="atributos.html">Atributos</a></li>
+          <li><a href="exemplo.html">Exemplo na Prática</a></li>
+        </ul>
+
+    </nav>
+
+    <main>
+
+        <section>
+            <h2>Atributos</h2>
+            <ul>
+                <li><strong>id:</strong> Define um identificador único para o elemento.</li>
+                <li><strong>name:</strong> Nome do campo, usado para identificar os dados enviados.</li>
+                <li><strong>class:</strong> Define uma ou mais classes CSS para estilização.</li>
+                <li><strong>style:</strong> Adiciona regras de estilo inline.</li>
+                <li><strong>disabled:</strong> Desabilita o campo, tornando-o inacessível ao usuário.</li>
+                <li><strong>required:</strong> Torna obrigatório selecionar um arquivo antes de enviar o formulário.</li>
+                <li><strong>multiple:</strong> Permite o upload de vários arquivos.</li>
+                <li><strong>accept:</strong> Especifica os tipos de arquivos permitidos (por exemplo, imagens, vídeos, documentos).</li>
+                <ul><strong>Valores comuns utilizados no atributo accept:</strong>
+                    <li>"image/*": Apenas imagens.</li>
+                    <li>"image/*": Apenas imagens.</li>
+                    <li>"audio/*": Apenas arquivos de áudio.</li>
+                    <li>.pdf, .docx, .txt: Tipos de arquivos específicos.</li>
+                </ul>
+            </ul>
+        </section>
+
+        <section id="exemplos">
+
+            <h2>Exemplos de Atributos do <code>input type="file"</code></h2>
+
+            <div class="atributos">
+
+                <h3>1. Atributo <code>id</code> </h3>
+                <form>
+                    <label for="basic">Selecione um arquivo:</label>
+                    <input type="file" id="basic">
+                </form>
+
+                <code>&lt;input type=&quot;file&quot; id=&quot;basic&quot;&gt;</code>
+           
+            </div>
+            
+            <div class="atributos">
+
+                <h3>2. Atributo <code>name</code></h3>
+                <form>
+                    <label for="nameExample">Arquivo de imagem:</label>
+                    <input type="file" id="nameExample" name="imagem">
+                </form>
+
+                <code>&lt;input type=&quot;file&quot; id=&quot;nameExample&quot; name=&quot;imagem&quot;&gt;</code>
+            
+            </div>
+            
+            <div class="atributos">
+
+                <h3>3. Atributo <code>accept</code></h3>
+                <form>
+                    <label for="acceptExample">Aceitar apenas imagens:</label>
+                    <input type="file" id="acceptExample" accept="image/*">
+                </form>
+        
+                <code>&lt;input type=&quot;file&quot; id=&quot;acceptExample&quot; accept=&quot;image/*&quot;&gt;</code>
+            
+            </div>
+                        
+            <div class="atributos">
+
+                <h3>4. Atributo <code>multiple</code></h3>
+                <form>
+                    <label for="multipleExample">Selecionar múltiplos arquivos:</label>
+                    <input type="file" id="multipleExample" multiple>
+                </form>
+        
+                <code>&lt;input type=&quot;file&quot; id=&quot;multipleExample&quot; multiple&gt;</code>/div>
+            
+            </div>
+
+            <div class="atributos">
+
+                <h3>5. Atributo <code>required</code></h3>
+                <form>
+                    <label for="requiredExample">Selecione um arquivo obrigatório:</label>
+                    <input type="file" id="requiredExample" required>
+                </form>
+
+                <code>&lt;input type=&quot;file&quot; id=&quot;requiredExample&quot; required&gt;</code>
+           
+            </div>
+            
+        
+            <div class="atributos">
+
+                <h3>6. Atributo <code>disabled</code></h3>
+                <form>
+                    <label for="disabledExample">Campo desabilitado:</label>
+                    <input type="file" id="disabledExample" disabled>
+                </form>
+
+                <code>&lt;input type=&quot;file&quot; id=&quot;disabledExample&quot; disabled&gt;</code>
+          
+            </div>      
+        
+            <div class="atributos">
+
+                <h3>7. Combinação de Atributos</h3>
+                <form>
+                    <label for="combinedExample">Selecionar apenas PDFs (obrigatório):</label>
+                    <input type="file" id="combinedExample" name="documento" accept=".pdf" required>
+                </form>
+
+                <code>&lt;input type=&quot;file&quot; id=&quot;combinedExample&quot; name=&quot;documento&quot; accept=&quot;.pdf&quot; required&gt;</code>
+           
+            </div>
+            
+        </section>
+
+    </main> 
+
+    <footer>INPUT TYPE FILE</footer>
+    
+</body>
+</html>    
